@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.reactgrid-content {
+    @apply rounded
+}
+
+.rg-cell{
+    height: auto;
+}
+.rg-header-cell{
+    @apply text-center bg-base-200 h-96;
+}
+.reactgrid-content{
+    @apply table w-full
+}
